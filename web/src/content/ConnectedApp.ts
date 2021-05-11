@@ -5,25 +5,23 @@ import App from './App'
 import { IAppState } from '../redux/store/templates/appState'
 
 export interface IMapStateToPropsApp {
-    appState: IAppState;
+  appState: IAppState
 }
 
-export interface IMapDispatchToPropsApp {
-    
-}
+export interface IMapDispatchToPropsApp {}
 
-const mapStateToProps = (state: IMapStateToPropsApp, ownProps) =>  {
-    return {
-        appState: state.appState
-    }
+const mapStateToProps = (state: IMapStateToPropsApp, ownProps) => {
+  return {
+    appState: state.appState,
+  }
 }
 
 const mapDispatchToProps = (dispatch, ownProps): IMapDispatchToPropsApp => {
-    return {
-
-    }
+  return {}
 }
 
-const ConnectedApp = withRouter(connect(mapStateToProps, mapDispatchToProps)(App))
+const ConnectedApp = withRouter(
+  connect(mapStateToProps, mapDispatchToProps)(App)
+)
 
 export default ConnectedApp
