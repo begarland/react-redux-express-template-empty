@@ -10,7 +10,7 @@
     "allowJs": true,
     "jsx": "react",
     "moduleResolution": "node",
-    "pretty": true,   
+    "pretty": true,
     "noErrorTruncation": true,
     "emitDecoratorMetadata": true
   },
@@ -22,8 +22,5 @@
     "scripts",
     "src/setupTests.ts"
   ],
-  "include": [
-    "web/src/**/*.tsx",
-    "web/src/**/*.ts"
-  ]
+  "include": ["web/src/**/*.tsx", "web/src/**/*.ts"]
 }

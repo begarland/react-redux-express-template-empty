@@ -1,7 +1,3 @@
-export const appState: IAppState = {
-  
-}
+export const appState: IAppState = {}
 
-export interface IAppState {
-
-}
+export interface IAppState {}

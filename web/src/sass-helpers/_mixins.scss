@@ -1,8 +1,8 @@
-@mixin text-decoration-none{
+@mixin text-decoration-none {
   text-decoration: none;
 }
 
-@mixin transform($deg){
+@mixin transform($deg) {
   -webkit-transform: rotate($deg);
   -moz-transform: rotate($deg);
   -o-transform: rotate($deg);
@@ -32,12 +32,12 @@
   border: white 2px solid;
   margin: 2.5px;
 
-  &:active{
+  &:active {
     transform: translateY(1px);
   }
 }
 
-@mixin input{
+@mixin input {
   font-family: $regular-font;
   border-radius: $border-radius;
   width: 150px;
