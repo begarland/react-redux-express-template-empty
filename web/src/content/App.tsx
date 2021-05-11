@@ -1,11 +1,8 @@
 import * as React from 'react'
-import { IMapStateToPropsApp, IMapDispatchToPropsApp } from './ConnectedApp'
 
 const reactLogo = './assets/images/reactReduxTS.png'
 
-interface IApp extends IMapStateToPropsApp, IMapDispatchToPropsApp {}
-
-const App = (props: IApp) => {
+const App = () => {
   return (
     <div className='App'>
       <div className='App-splash-logo'>
